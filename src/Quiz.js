@@ -53,6 +53,7 @@ export default function Quiz(props){
          {isSubmit && <div className="submit-page" > 
              <h1>Thanks For Giving Test</h1>
              <h2>Your Score Is {score}/5</h2>
+             <button type="button" onClick={()=>{ window.location.reload(true);}}>Submit</button>
         </div>}
         </div>
     )

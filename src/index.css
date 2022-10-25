@@ -47,23 +47,30 @@ body{
   min-width: 200px;
   border: 1px solid grey;
   border-radius:10px;
+  background-color: #464749;
   color:white;
+  height:25px;
 }
 .start-button{
   width:250px;
-  height:25px;
+  height:35px;
   color:white;
-  background-color: #4d5b9e;
+  background-color: #0d2083;
   border-radius:7px;
+  border: none;
+
 }
 .submit-button{
   display:block;
   margin:10px auto;
    width:250px;
-  height:25px;
+  height:35px;
   color:white;
-  background-color: #4d5b9e;
+  background-color: #0d2083;
   border-radius:5px;
+  border: none;
+
+
 }
 .quiz{
   text-align:center;
